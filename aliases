@@ -1,11 +1,10 @@
 # Aliases
 #Pacman
 alias c="checkupdates"
-alias u="yay -Syyu"
-alias i="yay -Sy"
-alias r="yay -R"
-alias q="yay -Sys"
-alias pl='pacman -Qs' # list installed package
+alias u="doas dnf update"
+alias i="doas dnf install"
+alias r="doas dnf remove"
+alias q="doas dnf search"
 
 # Timeshift backup
 alias ltime="doas timeshift --list"
