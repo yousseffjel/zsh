@@ -105,6 +105,7 @@ linkConfig() {
     ln -svf ${GITPATH}/.zshrc ${USER_HOME}/.config/zsh/.zshrc
     ln -svf ${GITPATH}/aliases ${USER_HOME}/.config/aliases
     ln -svf ${GITPATH}/starship.toml ${USER_HOME}/.config/starship.toml
+    cp -R ${GITPATH}/zshrc ${USER_HOME}/.zshrc
 }
 
 checkEnv

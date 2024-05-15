@@ -97,7 +97,7 @@ alias 755='chmod -R 755'
 alias 777='chmod -R 777'
 
 
-alias startdrive='rclone --vfs-cache-mode writes mount drive: ~/drive'
+alias onedrive='rclone --vfs-cache-mode writes mount onedrive: ~/Onedrive'
 
 
 
